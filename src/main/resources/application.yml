@@ -1,0 +1,6 @@
+server:
+  port: 13001
+
+liteflow:
+  rule-source: com.example.config.LiteFlowElParser
+  parse-mode: PARSE_ONE_ON_FIRST_EXEC # 使用PARSE_ONE_ON_FIRST_EXEC时控制台会打印“执行了自定义parser”
